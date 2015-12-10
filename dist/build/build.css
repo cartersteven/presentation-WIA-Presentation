@@ -140,4 +140,5 @@ li {
 img {
   width: 90%;
   max-width: 550px;
+  height: auto;
 }
