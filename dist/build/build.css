@@ -4,14 +4,6 @@
  * @author ocodia
  */
 
-body{
-	background-color: #35478C;
-}
-
-section{
-	background-color: #7FB2F0;
-}
-
 code[class*="language-"],
 pre[class*="language-"] {
 	color: #f8f8f2;
@@ -125,4 +117,20 @@ pre[class*="language-"] {
 
 .token.entity {
 	cursor: help;
+}
+
+body {
+  background: #7fb2f0;
+}
+h2 {
+  color: #16193b;
+}
+h3 {
+  color: #35478c;
+}
+h1 {
+  color: #16193b;
+}
+p {
+  color: #4e7ac7;
 }
