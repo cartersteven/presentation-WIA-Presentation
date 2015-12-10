@@ -67,6 +67,10 @@ html
             npm install -g grunt-cli bower yo generator-karma generator-bespoke
 
       section
+        h2  Installing Bespoke Builder in the machine.
+        img(src='img/install.png')
+
+      section
         h2  Building Bespoke
         h3  You need to first create a folder for the project.
         p In terminal:
@@ -105,35 +109,7 @@ html
         h2  Editing Jade Files
         p Jade is a file system that allows for immediately updated templates and a simplified syntax to make HTML.
         p The styl files are edited with the same syntax.
-        
 
 
-      section
-
-
-      section
-        h2 Syntax Highlighting
-        h3 Powered by <a href="http://twitter.com/LeaVerou">Lea Verou</a>'s <a href="https://github.com/LeaVerou/prism">Prism</a>
-        pre
-          code.language-javascript.
-            bespoke.from('article', [
-              classes(),
-              keys(),
-              touch(),
-              bullets('li, .bullet')
-            ]);
-
-      section
-        h2.bullet Just the beginning...
-        br
-        ul
-          li Edit <a href="http://jade-lang.com/">Jade</a> markup in <em>'src/index.jade'</em>
-          li Edit <a href="http://learnboost.github.io/stylus/">Stylus</a> styles in <em>'src/styles/main.styl'</em>
-          li Edit JavaScript in <em>'src/scripts/main.js'</em>
-        br
-        ul
-          li
-            strong Enjoy! :)
-            a(href='http://twitter.com/markdalgleish')  -@markdalgleish
 
     script(src='build/build.js')

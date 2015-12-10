@@ -137,3 +137,7 @@ p {
 li {
   color: #4e7ac7;
 }
+img {
+  width: 100%;
+  max-width: 550px;
+}
