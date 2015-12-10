@@ -12,7 +12,7 @@
         <h1>Welcome to my Bespoke Presentation!</h1>
       </section>
       <section>
-        <h2>What is Bespoke?</h2>
+        <h2 class="bullet">What is Bespoke?</h2>
         <ul>
           <li> Bespoke is a very lightweight presentation framework made using Javascript.</li>
           <li> It was created in 2012 by Mark Dalgleish.</li>
@@ -34,6 +34,24 @@
         <h3> Download the source for the automatic Bespoke Builder</h3>
         <p>Find it at github.com/bespokejs/generator-bespoke</p>
         <p>Truth be told, I am not entirely sure this was a necessary step, as Node will asynchronously pull files for you, but I did it anyway just to be sure.</p>
+      </section>
+      <section>
+        <h2> Warning!</h2>
+        <h3> I had an issue with Node's ability to actually write files to my computer at this point. my computer had not actually given it permission to write anything.</h3>
+      </section>
+      <section>
+        <h2> Fix</h2>
+        <h3> To fix this, follow these instructions</h3>
+        <p>Find out where node is located by entering this command into terminal</p>
+        <pre><code class="language-html">npm config get prefix
+</code></pre>
+      </section>
+      <section>
+        <h2> Fix</h2>
+        <h3> To fix this, follow these instructions</h3>
+        <p>  If the folder that comes up is "/usr/local" then enter this command:</p>
+        <pre><code class="language-html">sudo chown -R 'yourUserName' '/usr/local'
+</code></pre>
       </section>
       <section>
         <h2>Syntax Highlighting</h2>

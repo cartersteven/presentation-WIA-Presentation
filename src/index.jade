@@ -15,7 +15,7 @@ html
         h1 Welcome to my Bespoke Presentation!
 
       section
-        h2 What is Bespoke?
+        h2.bullet What is Bespoke?
         ul
           li  Bespoke is a very lightweight presentation framework made using Javascript.
           li  It was created in 2012 by Mark Dalgleish.
@@ -37,6 +37,26 @@ html
         h3  Download the source for the automatic Bespoke Builder
         p Find it at github.com/bespokejs/generator-bespoke
         p Truth be told, I am not entirely sure this was a necessary step, as Node will asynchronously pull files for you, but I did it anyway just to be sure.
+
+      section
+        h2  Warning!
+        h3  I had an issue with Node's ability to actually write files to my computer at this point. my computer had not actually given it permission to write anything.
+
+      section
+        h2  Fix
+        h3  To fix this, follow these instructions
+        p Find out where node is located by entering this command into terminal
+        pre
+          code.language-html.
+            npm config get prefix
+
+      section
+        h2  Fix
+        h3  To fix this, follow these instructions
+        p   If the folder that comes up is "/usr/local" then enter this command:
+        pre
+          code.language-html.
+            sudo chown -R 'yourUserName' '/usr/local'
 
       section
         h2 Syntax Highlighting
