@@ -59,6 +59,38 @@ html
             sudo chown -R 'yourUserName' '/usr/local'
 
       section
+        h2  Installing Bespoke Builder in the machine.
+        h3  The github for Bespoke will ask you to execute all of the installs in succession, but all steps need to be done at once.
+        p In terminal:
+        pre
+          code.language-html.
+            npm install -g grunt-cli bower yo generator-karma generator-bespoke
+
+      section
+        h2  Building Bespoke
+        h3  You need to first create a folder for the project.
+        p In terminal:
+        pre
+          code.language-html.
+            mkdir 'insertPresentationNameHere'
+
+      section
+        h2  Building Bespoke
+        h3  You then need to enter that directory.
+        p In terminal:
+        pre
+          code.language-html.
+            cd 'insertPresentationNameHere'
+
+      section
+        h2  Building Bespoke
+        h3  The Bespoke Builder will ask a series of yes or no questions about what you want out of the presentation.
+        p In terminal:
+        pre
+          code.language-html.
+            yo bespoke
+
+      section
         h2 Syntax Highlighting
         h3 Powered by <a href="http://twitter.com/LeaVerou">Lea Verou</a>'s <a href="https://github.com/LeaVerou/prism">Prism</a>
         pre
